@@ -3,6 +3,8 @@ spring.main.allow-bean-definition-overriding: true
 spring:
   profiles:
     active: "development"
+  jackson:
+    default-property-inclusion: non_null
 service:
   message:
     type: "simple"
